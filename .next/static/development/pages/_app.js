@@ -12617,7 +12617,7 @@ var _jsxFileName = "/Users/joonmo/dev/commerce/pages/_app.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 function _templateObject() {
-  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_6__["default"])(["\n  ", "\n\n  body{\n    font-size: 14px;  \n  }\n\n  \n"]);
+  var data = Object(_babel_runtime_corejs2_helpers_esm_taggedTemplateLiteral__WEBPACK_IMPORTED_MODULE_6__["default"])(["\n  ", "\n  @font-face {\n    font-family: 'NotoSansKR';\n    src: url('/fonts/NotoSansKR-Black.otf');\n    src: url('/fonts/NotoSansKR-Bold.otf');\n    src: url('/fonts/NotoSansKR-Light.otf');\n    src: url('/fonts/NotoSansKR-Medium.otf');\n    src: url('/fonts/NotoSansKR-Regular.otf');\n    src: url('/fonts/NotoSansKR-Thin.otf');\n  }\n\n\n  body{\n    font-size: 14px;  \n    font-family: \"NotoSansKR\";\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -12654,19 +12654,19 @@ function (_App) {
         theme: _src_theme__WEBPACK_IMPORTED_MODULE_10__["default"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 30
         },
         __self: this
       }, __jsx(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, null, __jsx(GlobalStyle, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 32
         },
         __self: this
       }), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 33
         },
         __self: this
       }))));

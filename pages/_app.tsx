@@ -6,10 +6,20 @@ import { normalize } from "styled-normalize";
 
 const GlobalStyle = createGlobalStyle`
   ${normalize}
+  @font-face {
+    font-family: 'NotoSansKR';
+    src: url('/fonts/NotoSansKR-Black.otf');
+    src: url('/fonts/NotoSansKR-Bold.otf');
+    src: url('/fonts/NotoSansKR-Light.otf');
+    src: url('/fonts/NotoSansKR-Medium.otf');
+    src: url('/fonts/NotoSansKR-Regular.otf');
+    src: url('/fonts/NotoSansKR-Thin.otf');
+  }
 
-  font-family: ''
+
   body{
     font-size: 14px;  
+    font-family: "NotoSansKR";
   }
 `;
 

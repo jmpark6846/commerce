@@ -1989,12 +1989,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 const GlobalStyle = styled_components__WEBPACK_IMPORTED_MODULE_3__["createGlobalStyle"]`
   ${styled_normalize__WEBPACK_IMPORTED_MODULE_5__["normalize"]}
+  @font-face {
+    font-family: 'NotoSansKR';
+    src: url('/fonts/NotoSansKR-Black.otf');
+    src: url('/fonts/NotoSansKR-Bold.otf');
+    src: url('/fonts/NotoSansKR-Light.otf');
+    src: url('/fonts/NotoSansKR-Medium.otf');
+    src: url('/fonts/NotoSansKR-Regular.otf');
+    src: url('/fonts/NotoSansKR-Thin.otf');
+  }
+
 
   body{
     font-size: 14px;  
+    font-family: "NotoSansKR";
   }
-
-  
 `;
 class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_1___default.a {
   render() {
@@ -2006,19 +2015,19 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_1___default.a {
       theme: _src_theme__WEBPACK_IMPORTED_MODULE_4__["default"],
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 30
       },
       __self: this
     }, __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, __jsx(GlobalStyle, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 32
       },
       __self: this
     }), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 33
       },
       __self: this
     }))));
