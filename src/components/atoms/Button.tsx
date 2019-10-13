@@ -9,6 +9,12 @@ const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  outline:none;
+  border: none;
+  padding: 0px 13px;
+
+  cursor: pointer;
 `;
 
 export default Button;

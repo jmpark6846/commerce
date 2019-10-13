@@ -105,8 +105,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _src_components_atoms_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/components/atoms/Button */ "./src/components/atoms/Button.tsx");
+/* harmony import */ var _src_components_atoms_Input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/components/atoms/Input */ "./src/components/atoms/Input.tsx");
 var _jsxFileName = "/Users/joonmo/dev/commerce/pages/index.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -114,16 +116,22 @@ function index() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, __jsx(_src_components_atoms_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
-  }, "\uACB0\uC81C"));
+  }, "\uACB0\uC81C"), __jsx(_src_components_atoms_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (index);
@@ -147,8 +155,30 @@ __webpack_require__.r(__webpack_exports__);
 const Button = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.button.withConfig({
   displayName: "Button",
   componentId: "hmuxt5-0"
-})(["border-radius:4px;background-color:", ";color:white;height:40px;display:flex;align-items:center;justify-content:center;"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].color.primary);
+})(["border-radius:4px;background-color:", ";color:white;height:40px;display:flex;align-items:center;justify-content:center;outline:none;border:none;padding:0px 13px;cursor:pointer;"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].color.primary);
 /* harmony default export */ __webpack_exports__["default"] = (Button);
+
+/***/ }),
+
+/***/ "./src/components/atoms/Input.tsx":
+/*!****************************************!*\
+  !*** ./src/components/atoms/Input.tsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-components */ "styled-components");
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _theme__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../theme */ "./src/theme.tsx");
+
+
+const Input = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.input.withConfig({
+  displayName: "Input",
+  componentId: "xngzqq-0"
+})(["border:1px solid ", ";border-radius:4px;background-color:", ";height:45px;align-content:center;display:flex;outline:none;padding:0 13px;width:100%;::placeholder{color:", ";}"], _theme__WEBPACK_IMPORTED_MODULE_1__["default"].color.gray, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].color.background, _theme__WEBPACK_IMPORTED_MODULE_1__["default"].color.gray);
+/* harmony default export */ __webpack_exports__["default"] = (Input);
 
 /***/ }),
 
@@ -164,7 +194,7 @@ __webpack_require__.r(__webpack_exports__);
 const theme = {
   color: {
     text: "#333",
-    primary: "#1EB7FF",
+    primary: "#00A2F9",
     background: "white",
     secondary: "#1EB7FF",
     third: "#D5AC4E",

@@ -2049,7 +2049,7 @@ __webpack_require__.r(__webpack_exports__);
 const theme = {
   color: {
     text: "#333",
-    primary: "#1EB7FF",
+    primary: "#00A2F9",
     background: "white",
     secondary: "#1EB7FF",
     third: "#D5AC4E",
